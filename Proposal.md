@@ -1,7 +1,7 @@
 
 # topic
 
-Analyze Crime Data for Austin, TX (maybe Houston/all of Texas if time permits?) against other factors such as; access to food, general wealth/ home costs, school teacher: student ratio, daily weather... and offer visualizations of any trends between crime and these other factors.
+Analyze Crime Data for Austin, TX against other factors such as; access to food, general wealth/ home costs, school teacher: student ratio, daily weather... and offer visualizations of any trends between crime and these other factors.
 
 # Tech Stack
 
