@@ -1,5 +1,5 @@
 
-# topic
+# Topic
 
 Analyze Crime Data for Austin, TX against other factors such as; access to food, general wealth/ home costs, daily weather events... and offer visualizations of any trends between crime and these other factors.
 
