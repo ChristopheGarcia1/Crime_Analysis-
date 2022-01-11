@@ -9,7 +9,7 @@ Analyze Crime Data for Austin, TX against other factors such as; access to food,
 - Jupyter Notebooks
 - Leaflet
 - Google Maps
-- Viz tools -- Tableau, D3 , Plotly
+- Viz tools -- Tableau, Plotly
 - Web framework -- Flask
 - DB - AWS - RDS sql database (if needed)
 
