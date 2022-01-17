@@ -4,12 +4,12 @@ zip_code,category_description,crime_type
 78613,Auto Theft,15
 78613,Burglary,55
 78613,Robbery,4
-78613,Theft,353
+78613,Theft,356
 78617,Aggravated Assault,61
-78617,Auto Theft,70
+78617,Auto Theft,71
 78617,Burglary,51
 78617,Robbery,8
-78617,Theft,218
+78617,Theft,220
 78652,Aggravated Assault,2
 78652,Burglary,3
 78652,Theft,13
@@ -20,7 +20,7 @@ zip_code,category_description,crime_type
 78653,Robbery,1
 78653,Theft,45
 78660,Aggravated Assault,56
-78660,Auto Theft,77
+78660,Auto Theft,78
 78660,Burglary,55
 78660,Murder,1
 78660,Robbery,16
@@ -28,33 +28,33 @@ zip_code,category_description,crime_type
 78664,Theft,1
 78681,Auto Theft,1
 78701,Aggravated Assault,327
-78701,Auto Theft,264
-78701,Burglary,267
+78701,Auto Theft,263
+78701,Burglary,269
 78701,Murder,10
 78701,Robbery,130
-78701,Theft,2539
+78701,Theft,2550
 78702,Aggravated Assault,243
 78702,Auto Theft,295
-78702,Burglary,451
+78702,Burglary,452
 78702,Murder,3
 78702,Robbery,71
-78702,Theft,1917
+78702,Theft,1925
 78703,Aggravated Assault,20
 78703,Auto Theft,125
 78703,Burglary,148
 78703,Robbery,8
-78703,Theft,1039
+78703,Theft,1042
 78704,Aggravated Assault,212
-78704,Auto Theft,611
-78704,Burglary,632
+78704,Auto Theft,613
+78704,Burglary,634
 78704,Murder,3
 78704,Robbery,90
-78704,Theft,4242
+78704,Theft,4259
 78705,Aggravated Assault,84
-78705,Auto Theft,409
-78705,Burglary,270
+78705,Auto Theft,410
+78705,Burglary,272
 78705,Robbery,36
-78705,Theft,1934
+78705,Theft,1940
 78712,Aggravated Assault,1
 78712,Auto Theft,3
 78712,Burglary,1
@@ -66,31 +66,31 @@ zip_code,category_description,crime_type
 78717,Theft,547
 78719,Aggravated Assault,4
 78719,Auto Theft,59
-78719,Theft,195
+78719,Theft,198
 78721,Aggravated Assault,145
-78721,Auto Theft,99
-78721,Burglary,132
+78721,Auto Theft,98
+78721,Burglary,134
 78721,Murder,4
 78721,Robbery,34
-78721,Theft,532
+78721,Theft,533
 78722,Aggravated Assault,18
 78722,Auto Theft,58
 78722,Burglary,82
 78722,Murder,2
 78722,Robbery,19
-78722,Theft,390
+78722,Theft,393
 78723,Aggravated Assault,356
-78723,Auto Theft,407
-78723,Burglary,492
+78723,Auto Theft,408
+78723,Burglary,493
 78723,Murder,8
 78723,Robbery,184
-78723,Theft,2543
-78724,Aggravated Assault,142
+78723,Theft,2551
+78724,Aggravated Assault,143
 78724,Auto Theft,112
-78724,Burglary,107
+78724,Burglary,106
 78724,Murder,4
 78724,Robbery,44
-78724,Theft,491
+78724,Theft,497
 78725,Aggravated Assault,15
 78725,Auto Theft,5
 78725,Burglary,16
@@ -99,43 +99,43 @@ zip_code,category_description,crime_type
 78725,Theft,59
 78726,Aggravated Assault,36
 78726,Auto Theft,49
-78726,Burglary,54
+78726,Burglary,55
 78726,Murder,2
 78726,Robbery,5
-78726,Theft,330
+78726,Theft,329
 78727,Aggravated Assault,63
 78727,Auto Theft,175
 78727,Burglary,185
 78727,Robbery,25
-78727,Theft,986
+78727,Theft,990
 78728,Aggravated Assault,2
 78728,Auto Theft,7
 78728,Burglary,5
 78728,Theft,21
 78729,Aggravated Assault,91
 78729,Auto Theft,105
-78729,Burglary,189
+78729,Burglary,190
 78729,Robbery,21
-78729,Theft,817
+78729,Theft,820
 78730,Aggravated Assault,6
 78730,Auto Theft,23
 78730,Burglary,21
-78730,Theft,230
+78730,Theft,232
 78731,Aggravated Assault,35
 78731,Auto Theft,126
-78731,Burglary,113
+78731,Burglary,114
 78731,Murder,1
 78731,Robbery,10
-78731,Theft,1457
+78731,Theft,1468
 78732,Aggravated Assault,1
 78732,Theft,9
 78733,Theft,2
 78735,Aggravated Assault,33
-78735,Auto Theft,62
-78735,Burglary,150
+78735,Auto Theft,61
+78735,Burglary,151
 78735,Murder,1
 78735,Robbery,8
-78735,Theft,482
+78735,Theft,495
 78736,Aggravated Assault,15
 78736,Auto Theft,20
 78736,Burglary,29
@@ -152,102 +152,102 @@ zip_code,category_description,crime_type
 78739,Murder,1
 78739,Robbery,1
 78739,Theft,119
-78741,Aggravated Assault,539
-78741,Auto Theft,737
-78741,Burglary,821
+78741,Aggravated Assault,537
+78741,Auto Theft,738
+78741,Burglary,826
 78741,Murder,13
 78741,Robbery,219
-78741,Theft,3372
+78741,Theft,3387
 78742,Aggravated Assault,5
 78742,Auto Theft,14
 78742,Burglary,13
 78742,Robbery,5
 78742,Theft,52
-78744,Aggravated Assault,333
-78744,Auto Theft,421
-78744,Burglary,330
+78744,Aggravated Assault,334
+78744,Auto Theft,424
+78744,Burglary,336
 78744,Murder,10
 78744,Robbery,96
-78744,Theft,2048
-78745,Aggravated Assault,323
-78745,Auto Theft,440
-78745,Burglary,608
+78744,Theft,2053
+78745,Aggravated Assault,322
+78745,Auto Theft,442
+78745,Burglary,613
 78745,Murder,7
 78745,Robbery,89
-78745,Theft,2590
+78745,Theft,2607
 78746,Aggravated Assault,21
 78746,Auto Theft,88
-78746,Burglary,69
+78746,Burglary,70
 78746,Murder,2
 78746,Robbery,10
-78746,Theft,1178
+78746,Theft,1187
 78747,Aggravated Assault,47
 78747,Auto Theft,43
-78747,Burglary,68
+78747,Burglary,70
 78747,Murder,2
 78747,Robbery,8
-78747,Theft,315
+78747,Theft,316
 78748,Aggravated Assault,155
 78748,Auto Theft,200
-78748,Burglary,281
+78748,Burglary,282
 78748,Murder,1
 78748,Robbery,36
-78748,Theft,1658
+78748,Theft,1667
 78749,Aggravated Assault,42
 78749,Auto Theft,100
-78749,Burglary,135
+78749,Burglary,136
 78749,Murder,3
 78749,Robbery,15
-78749,Theft,1061
+78749,Theft,1064
 78750,Aggravated Assault,42
-78750,Auto Theft,83
-78750,Burglary,137
+78750,Auto Theft,85
+78750,Burglary,140
 78750,Murder,3
 78750,Robbery,10
-78750,Theft,825
-78751,Aggravated Assault,98
-78751,Auto Theft,234
+78750,Theft,832
+78751,Aggravated Assault,97
+78751,Auto Theft,235
 78751,Burglary,257
 78751,Robbery,25
-78751,Theft,1416
+78751,Theft,1418
 78752,Aggravated Assault,253
 78752,Auto Theft,283
-78752,Burglary,285
+78752,Burglary,287
 78752,Murder,13
 78752,Robbery,149
-78752,Theft,1587
-78753,Aggravated Assault,519
-78753,Auto Theft,790
-78753,Burglary,683
+78752,Theft,1590
+78753,Aggravated Assault,518
+78753,Auto Theft,792
+78753,Burglary,686
 78753,Murder,12
-78753,Robbery,268
-78753,Theft,3651
+78753,Robbery,267
+78753,Theft,3662
 78754,Aggravated Assault,102
 78754,Auto Theft,153
-78754,Burglary,168
+78754,Burglary,171
 78754,Murder,4
-78754,Robbery,44
-78754,Theft,722
+78754,Robbery,43
+78754,Theft,729
 78756,Aggravated Assault,22
 78756,Auto Theft,70
 78756,Burglary,103
 78756,Robbery,6
-78756,Theft,558
+78756,Theft,560
 78757,Aggravated Assault,92
-78757,Auto Theft,200
-78757,Burglary,341
+78757,Auto Theft,202
+78757,Burglary,343
 78757,Murder,2
 78757,Robbery,45
-78757,Theft,1548
+78757,Theft,1555
 78758,Aggravated Assault,525
-78758,Auto Theft,777
-78758,Burglary,731
+78758,Auto Theft,778
+78758,Burglary,734
 78758,Murder,8
 78758,Robbery,254
-78758,Theft,3783
+78758,Theft,3805
 78759,Aggravated Assault,121
 78759,Auto Theft,271
-78759,Burglary,370
+78759,Burglary,375
 78759,Murder,3
 78759,Robbery,44
-78759,Theft,2598
+78759,Theft,2612
