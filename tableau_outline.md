@@ -10,30 +10,31 @@
 
 ## Informative Visualizations Showing:
 
-    - Heatmap/choropleth of Austin food scarcity (The choropleth looks easier on tableau - [X]) - []
+    - Heatmap of Austin food scarcity in the Family violence and Violent offender population. 
 
-    https://public.tableau.com/app/profile/stuart.wilson2140/viz/atx_food_insec_zip/atx_food_insec_zip?publish=yes
 
-    - Violent crime Visualizations by Zip
+    - Family Violence - []
+    https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
+
+    
+    - Violent crime Visualizations by Zip https://public.tableau.com/app/profile/moez.khan8652/viz/TotalCountCrimesCommitedinAustinbyZipCode-ColorCodedby25orMoreFoodInsecurityin2021/Sheet1?publish=yes
+
         - Types of Crime 
 
-            - Assault - []
+            - Assault - 
 
-            - Murder - [X]
+            - Murder - 
 
-            https://public.tableau.com/app/profile/stuart.wilson2140/viz/atx_food_insec_murder/atx_food_insec_murder
-
-            - Theft - []
+            - Theft - 
 
             - Etc...
 
-        - Time of Day (By crime type?) - []
 
-        - Type Location - [X]
+        - Type Location -
 
-        https://public.tableau.com/app/profile/stuart.wilson2140/viz/atx_crime_zip/atx_crime_zip
+        https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
 
-        - Family Violence - []
+  
 
     - Weather Visualizations (If we end up getting into weather data)
 
@@ -41,24 +42,24 @@
     
 ## Machine Learning Dashboard Visualize Clustering
 
-    - Weather data - []
+    - Weather data - 
 
-    - Food scarcity - []
+    - Food scarcity - 
 
-    - Medium Household Income (If we have this data) - []
+    - Medium Household Income (If we have this data) -
 
 
 ## Austin Crime Story (2020 - 2021)
 
     - Visualize different data sets and their change from 2020 to 2021
-        - Assault - []
+        - Assault - 
 
-        - Murder - []
+        - Murder - 
 
-        - Theft - []
+        - Theft - 
 
         - Etc...
 
-        - Food Scarcity/Desert Rating - []
+        - Food Scarcity/Desert Rating - 
 
-        - Medium Household Income (If we have this data) - []
+        - Medium Household Income (If we have this data) -
