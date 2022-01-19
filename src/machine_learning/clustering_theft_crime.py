@@ -58,7 +58,7 @@ data
 # In[ ]:
 
 
-data_trimmed = data[['crime_type_x', 'latitude', 'longitude', 'family_violence', 'wind_speed', 'weather_main', 'temp', 'humidity', 'Avg. Income/H/hold', 'food_deprived_50', 'food_deprived_25', 'food_deprived_10']]
+data_trimmed = data[['crime_type_x', 'latitude', 'longitude', 'time_occ', 'family_violence', 'wind_speed', 'weather_main', 'temp', 'humidity', 'Avg. Income/H/hold', 'food_deprived_50', 'food_deprived_25', 'food_deprived_10']]
 # Transform the string data column
 def change_string(member):
     if member == 'Yes' or member == 'Y':
@@ -88,30 +88,17 @@ data_encoded.columns = enc.get_feature_names(categorical)
 data_trimmed = data_trimmed.merge(data_encoded,left_index=True, right_index=True)
 data_trimmed = data_trimmed.drop(categorical,1)
 
-# Standardize data with StandardScalar
-data_scaled = StandardScaler().fit_transform(data_trimmed)
-
-# Initialize PCA model
-pca = PCA(n_components=3)
-
-# Get two principal components for the iris data.
-pca_data = pca.fit_transform(data_scaled)
-
-data_pca = pd.DataFrame(
-    data= pca_data, columns= ['principal component 1', 'principal component 2', 'principal component 3']
-)
-
 
 # In[ ]:
 
 
 # Looking for the best K
 inertia = []
-k = list(range(1, 11))
+k = list(range(1, 10))
 
 for i in k:
     km = KMeans(n_clusters=i, random_state=0)
-    km.fit(data_pca)
+    km.fit(data_trimmed)
     inertia.append(km.inertia_)
     
 # Define a DataFrame to plot the Elbow Curve using hvPlot
@@ -125,25 +112,39 @@ elbow_plot
 
 
 # Initialize the K-means model
-model = KMeans(n_clusters=5, random_state=0)
+model = KMeans(n_clusters=4, random_state=0)
 
 # Fit the model
-model.fit(data_pca)
+model.fit(data_trimmed)
 
 # Predict clusters
-predictions = model.predict(data_pca)
+predictions = model.predict(data_trimmed)
+data_trimmed["class"] = model.labels_
+
+# Standardize data with StandardScalar
+data_scaled = StandardScaler().fit_transform(data_trimmed)
+
+# Initialize PCA model
+pca = PCA(n_components=3)
+
+# Get two principal components for the iris data.
+pca_data = pca.fit_transform(data_scaled)
+
+data_pca = pd.DataFrame(
+    data= pca_data, columns= ['principal component 1', 'principal component 2', 'principal component 3']
+)
 
 # Add the predicted class columns
 data_pca["class"] = model.labels_
 
-data_pca = data_pca.merge(data[['crime_type_x', 'latitude', 'longitude', 'wind_speed', 'weather_main', 'family_violence', 'zip_code', 'temp', 'Avg. Income/H/hold', 'food_deprived_50', 'food_deprived_25', 'food_deprived_10']],left_index=True, right_index=True)
+data_pca = data_pca.merge(data[['crime_type_x', 'time_occ', 'latitude', 'longitude', 'wind_speed', 'weather_main', 'family_violence', 'zip_code', 'temp', 'Avg. Income/H/hold', 'food_deprived_50', 'food_deprived_25', 'food_deprived_10']],left_index=True, right_index=True)
 
 fig = px.scatter_3d(
     data_pca,
     x="principal component 1",
     y="principal component 2",
     z="principal component 3",
-    hover_data=["crime_type_x", "zip_code", 'temp', 'weather_main', 'Avg. Income/H/hold', 'food_deprived_50', 'food_deprived_25', 'Avg. Income/H/hold', 'latitude', 'longitude'],
+    hover_data=["crime_type_x", "zip_code", 'time_occ', 'temp', 'weather_main', 'Avg. Income/H/hold', 'food_deprived_50', 'food_deprived_25', 'Avg. Income/H/hold', 'latitude', 'longitude'],
     color="class",
     width=1200)
 fig.update_layout(legend=dict(x=0,y=1))
