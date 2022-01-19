@@ -70,7 +70,7 @@ data
 # In[ ]:
 
 
-data_trimmed = data[['crime_type_x', 'latitude', 'longitude', 'time_occ', 'family_violence', 'wind_speed', 'weather_main', 'temp', 'humidity', 'Avg. Income/H/hold', 'food_deprived_50', 'food_deprived_25', 'food_deprived_10']]
+data_trimmed = data[['latitude', 'longitude', 'time_occ', 'family_violence', 'wind_speed', 'weather_main', 'temp', 'humidity', 'Avg. Income/H/hold', 'food_deprived_50', 'food_deprived_25', 'food_deprived_10']]
 # Transform the string data column
 def change_string(member):
     if member == 'Yes' or member == 'Y':
