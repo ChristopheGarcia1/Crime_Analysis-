@@ -9,25 +9,72 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container">
-      <!-- Add Jumbotron to Header -->
-      <div class="jumbotron text-center">
-        <h1>Meet the Authors</h1>
-      </div>
-    </div>
+    <div class= "contatiner bg-primary dark">
+      <div class="row">
+        <!-- Add Jumbotron to Header -->
+        <div class=" col-md jumbotron text-center container bg-primary dark">
+          <h1>Meet the Authors</h1>
+          <p>Blue Group: Paul Westmore, Christopher Garcia, Stuart Wilson, Moez Kmo</p>
+        </div>
+        </div>
     <!-- Add section for each contributer -->
     <div class="row" id="mars-news">
-        <div class="col-md-12">
+        <div class="col-md-6 text-center">
           <div class="media">
             <div class="media-body">
-              <h2>Paul Westmore</h2>
-              <h4 class="media-heading">Python, SQL, ML</h4>
+              <h2 class="media-heading">Stuart Wilson</h2>
               <p>{{ authors.paul }}</p>
+              <div class="col-md">
+                <div class=center>
+                  <!-- <img src="images/Put picture here and resize to 204/272"> -->
+                </div>
+            </div>              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="media">
+            <div class="media-body">
+              <h2 class="media-heading">Paul Westmore</h2>
+              <p>{{ authors.paul }}</p>
+              <div class="col-md">
+                <div class=center>
+                  <!-- <img src="images/Put picture here and resize to 204/272"> -->
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="media">
+            <div class="media-body">
+              <h2 class="media-heading">Moez Kmo</h2>
+              <p>{{ authors.paul }}</p>
+              <div class="col-md">
+                <div class=center>
+                  <!-- <img src="images/Put picture here and resize to 204/272"> -->
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="media">
+            <div class="media-body">
+              <h2 class="media-heading">Christopher Garcia</h2>
+              <p>{{ authors.paul }}</p>
+              <div class="col-md">
+                <div class=center>
+                  <img src="images/chris_profile.JPG">
+                </div>
+            </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </body>
 </html>
