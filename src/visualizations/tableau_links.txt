@@ -4,49 +4,32 @@ Tableau Profile Links:
 - https://public.tableau.com/app/profile/stuart.wilson2140
 
 
-Title Sheet
-
+Title Sheet (Not Finalized)
 - https://public.tableau.com/app/profile/stuart.wilson2140/viz/AustinCrimeDashboardTitlePage/AustinCrimeDashboard
 
-Family Violence - []
+Family Violence - [] (Not Finalized)
 
 - https://public.tableau.com/app/profile/moez.khan8652/viz/ofFamilyViolenceOffendersinZipCodeswithFoodDesertsin2021/Sheet1?publish=yes
     
 - Violent crime Visualizations by Zip https://public.tableau.com/app/profile/moez.khan8652/viz/TotalCountCrimesCommitedinAustinbyZipCode-ColorCodedby25orMoreFoodInsecurityin2021/Sheet1?publish=yes
 
-Type of Crime in Food Desert Location -
+Type of Crime in Food Desert Location (Not Finalized)
 
 - https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
 
-Weather Types/Crime Visualizations
+Weather Types/Crime Visualizations (Finalized)
 
-- Weather Type/Temp Overview
-- https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherTypeandTemperatureOverview/WeatherTypeandTemperatureOverview?publish=yes
+- Weather Conditions Dashboard (Final)
+- https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherandCrimeTypesDashboardFinal/WeatherandCrimeTypesDashboardFinal
 
-- Crime Types, Weather Conditions
-- https://public.tableau.com/app/profile/stuart.wilson2140/viz/CrimeTypesWeatherConditions/CrimeTypesWeatherConditions?publish=yes
+- Streets Map Crime Types (Filterable, WITH ZIP code) (Final)
+- https://public.tableau.com/app/profile/stuart.wilson2140/viz/TempatOccuranceStreetsFilterable/TempatOccuranceStreetsFilterable?publish=yes
 
-- Agg Assault, Weather, Avg. Income
-- https://public.tableau.com/app/profile/stuart.wilson2140/viz/AggAssaultWeatherAvg_Income/AggAssaultWeatherAvg_Income?publish=yes
-
-- Agg Assault, Weather, % Deprived
-- https://public.tableau.com/app/profile/stuart.wilson2140/viz/AggAssaultWeatherDeprived/AggAssaultWeatherDeprived?publish=yes
-
-- Burglary, % Deprived, Filter by Weather Condition
-- https://public.tableau.com/app/profile/stuart.wilson2140/viz/BurglaryDeprivedFilterbyWeatherCondition/BurglaryDeprivedFilterbyWeatherCondition?publish=yes
-
-- Weather and Crime Types Dashboard 
-- https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherandCrimeTypesDashboard/WeatherandCrimeTypesDashboard
-- https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherandCrimeTypesDashboard2-desktop/WeatherandCrimeTypesDashboard
-
-
-
-
-
-
-
-
-
-
-
+- Specific Crimes (Non-Filterable, without zip code)
+- https://public.tableau.com/app/profile/stuart.wilson2140/viz/AggAssaultTempatOccuranceStreets/AggAssaultTempatOccuranceStreets
+- https://public.tableau.com/app/profile/stuart.wilson2140/viz/ArsonTempatOccuranceStreets/ArsonTempatOccuranceStreets
+- https://public.tableau.com/app/profile/stuart.wilson2140/viz/AutoTheftTempatOccuranceStreets/AutoTheftTempatOccuranceStreets
+- https://public.tableau.com/app/profile/stuart.wilson2140/viz/BurglaryofResidenceTempatOccuranceStreets/BurglaryofResidenceTempatOccuranceStreets
+- https://public.tableau.com/app/profile/stuart.wilson2140/viz/MurderTempatOccuranceStreets/MurderTempatOccuranceStreets
+- https://public.tableau.com/app/profile/stuart.wilson2140/viz/TheftTempatOccuranceStreets/TheftTempatOccuranceStreets
 
