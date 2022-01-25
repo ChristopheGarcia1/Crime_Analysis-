@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, redirect, url_for
 
 app = Flask(__name__)
@@ -45,4 +46,4 @@ def ml():
    return render_template("machine_learning.html")
 
 if __name__ == "__main__":
-   app.run(debug=True, port=process.env.PORT)
+   app.run(debug=True, port=os.environ['PORT'])
