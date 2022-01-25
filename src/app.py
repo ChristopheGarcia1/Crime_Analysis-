@@ -8,7 +8,7 @@ local_host = '127.0.0.1'
 local_port = 5000
 
 if os.environ.get("ENV") and os.environ.get("ENV") == "PROD":
-   local_path = 'https://crime-ut-data-class.herokuapp.com/'
+   local_path = 'https://crime-ut-data-class.herokuapp.com'
    local_host = '0.0.0.0'
    local_port = os.environ.get("PORT")
 
