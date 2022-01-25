@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Home</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
   <body>
     <div class="container bg-primary dark">
@@ -19,42 +16,18 @@
           <h1>Crime in Greater Austin Area</h1>
           <p>Blue Group: Paul Westmore, Christopher Garcia, Stuart Wilson, Moez Kmo</p>
           <ul class="nav nav-pills">
-            <li><a href="http://127.0.0.1:5000/">  Home  </a></li>
-            <li class="active"><a href="http://127.0.0.1:5000/weather">  Weather and Crime  </a> </li>
-            <li><a href="http://127.0.0.1:5000/machine-learning">  Machine Learning  </a> </li>
-            <li><a href="http://127.0.0.1:5000/about">  About Us  </a> </li>
+            <li class="active"><a href="{{ data.path }}/">  Home  </a></li>
+            <li><a href="{{ data.path }}/weather">  Weather and Crime  </a> </li>
+            <li><a href="{{ data.path }}/food">  Food Scarcity  </a> </li>
+            <li><a href="{{ data.path }}/machine-learning">  Machine Learning  </a> </li>
+            <li><a href="{{ data.path }}/about">  About Us  </a> </li>
           </ul>
         </div>
       </div>
       <!-- Tableau Visual 1 Start -->
-      <div class="container row" id="mars-news">
-        <div class="col-md-10 text-center">
-          <div class='tableauPlaceholder' id='viz1642642441570' style='position: relative'>
-            <object class='tableauViz'  style='display:none;'>
-                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                <param name='embed_code_version' value='3' />
-                <param name='site_root' value='' />
-                <param name='name' value='AustinCrimeDashboardTitlePage&#47;AustinCrimeDashboard' />
-                <param name='tabs' value='no' />
-                <param name='toolbar' value='yes' />
-                <param name='animate_transition' value='yes' />
-                <param name='display_static_image' value='yes' />
-                <param name='display_spinner' value='yes' />
-                <param name='display_overlay' value='yes' />
-                <param name='display_count' value='yes' />
-                <param name='language' value='en-US' />
-            </object>
-          </div>
-        </div>
-      </div>
+      <div class='tableauPlaceholder' id='viz1643083445418' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AggAssaultTempatOccuranceStreets&#47;AggAssaultTempatOccuranceStreets' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1643083445418');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <!-- Tableau Visual 1 End -->
     </div>
-
-    <script type='text/javascript'> 
-        var divElement = document.getElementById('viz1642642441570'); 
-        var vizElement = divElement.getElementsByTagName('object')[0]; 
-        if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}  var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script>
-    <!-- Tableau Visual 1 End -->
   </body>
   
 </html>
