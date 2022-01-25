@@ -18,6 +18,12 @@
         <div class=" col-md jumbotron text-center container bg-primary dark">
           <h1>Meet the Authors</h1>
           <p>Blue Group: Paul Westmore, Christopher Garcia, Stuart Wilson, Moez Kmo</p>
+          <ul class="nav nav-pills">
+            <li><a href="http://127.0.0.1:5000/">  Home  </a></li>
+            <li><a href="http://127.0.0.1:5000/weather">  Weather and Crime  </a> </li>
+            <li><a href="http://127.0.0.1:5000/machine-learning">  Machine Learning  </a> </li>
+            <li class="active"><a href="http://127.0.0.1:5000/about">  About Us  </a> </li>
+          </ul>
         </div>
         </div>
     <!-- Add section for each contributer -->
@@ -26,7 +32,7 @@
           <div class="media">
             <div class="media-body">
               <h2 class="media-heading">Stuart Wilson</h2>
-              <p>{{ authors.paul }}</p>
+              <p>{{ authors.stuart.description }}</p>
               <div class="col-md">
                 <div class=center>
                   <!-- <img src="images/Put picture here and resize to 204/272"> -->
@@ -39,7 +45,7 @@
           <div class="media">
             <div class="media-body">
               <h2 class="media-heading">Paul Westmore</h2>
-              <p>{{ authors.paul }}</p>
+              <p>{{ authors.paul.description }}</p>
               <div class="col-md">
                 <div class=center>
                   <!-- <img src="images/Put picture here and resize to 204/272"> -->
@@ -52,7 +58,7 @@
           <div class="media">
             <div class="media-body">
               <h2 class="media-heading">Moez Kmo</h2>
-              <p>{{ authors.paul }}</p>
+              <p>{{ authors.moez.description }}</p>
               <div class="col-md">
                 <div class=center>
                   <!-- <img src="images/Put picture here and resize to 204/272"> -->
@@ -65,7 +71,7 @@
           <div class="media">
             <div class="media-body">
               <h2 class="media-heading">Christopher Garcia</h2>
-              <p>{{ authors.paul }}</p>
+              <p>{{ authors.chris.description }}</p>
               <div class="col-md">
                 <div class=center>
                   <img src="images/chris_profile.JPG">
