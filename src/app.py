@@ -34,9 +34,10 @@ def about():
          'linked': "",
       },
       'stuart': {
-         'description': "",
-         'gh': "",
-         'linked': "",
+         'description': "Stuart Wilson Description Coming Soon",
+         'gh': "https://github.com/PSWil",
+         'linked': "https://www.linkedin.com/in/paul-wilson-9a6234214/",
+         'Tableau': "https://public.tableau.com/app/profile/stuart.wilson2140",
       },
       'moez': {
          'description': "",
