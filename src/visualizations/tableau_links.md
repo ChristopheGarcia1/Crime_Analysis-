@@ -1,23 +1,33 @@
-Tableau Profile Links:
+# Tableau Profile Links:
 
 - Stuart Wilson
 - https://public.tableau.com/app/profile/stuart.wilson2140
 
+- Moez Khanmohamed
+- https://public.tableau.com/app/profile/moez.khan8652
 
-Title Sheet (Not Finalized)
+## Title Sheet (Final?)
 - https://public.tableau.com/app/profile/stuart.wilson2140/viz/AustinCrimeDashboardTitlePage/AustinCrimeDashboard
 
-Family Violence - [] (Not Finalized)
+## Family Violence - [] (Final?)
 
-- https://public.tableau.com/app/profile/moez.khan8652/viz/ofFamilyViolenceOffendersinZipCodeswithFoodDesertsin2021/Sheet1?publish=yes
+- https://public.tableau.com/app/profile/moez.khan8652/viz/HEATMAPColorofFamilyviolencein25orMoreFoodInsecurityin2021/Sheet1?publish=yes (posted 1/25 Final?)
+- This was edited to reflect a Count of Population instead of SUM
+
+- (https://public.tableau.com/app/profile/moez.khan8652/viz/ofFamilyViolenceOffendersinZipCodeswithFoodDesertsin2021/Sheet1?publish=yes)
     
-- Violent crime Visualizations by Zip https://public.tableau.com/app/profile/moez.khan8652/viz/TotalCountCrimesCommitedinAustinbyZipCode-ColorCodedby25orMoreFoodInsecurityin2021/Sheet1?publish=yes
+# Violent crime Visualizations by Zip (Will this be in the Final Product?)
 
-Type of Crime in Food Desert Location (Not Finalized)
+- https://public.tableau.com/app/profile/moez.khan8652/viz/TotalCountCrimesCommitedinAustinbyZipCode-ColorCodedby25orMoreFoodInsecurityin2021/Sheet1?publish=yes
+
+# Type of Crime in Food Desert Location (Final?)
+
+- https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes. 
+- This viz is filtered by Crime Type and displaying one crime selected. (posted 1/25 Final?)
 
 - https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
 
-Weather Types/Crime Visualizations (Finalized)
+# Weather Types/Crime Visualizations (Finalized)
 
 - Weather Conditions Dashboard (Final)
 - https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherandCrimeTypesDashboardFinal/WeatherandCrimeTypesDashboardFinal
