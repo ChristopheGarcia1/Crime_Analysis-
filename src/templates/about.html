@@ -5,78 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About Us</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
   <body>
     <div class= "contatiner bg-primary dark">
       <div class="row">
-        <!-- Add Jumbotron to Header -->
-        <div class=" col-md jumbotron text-center container bg-primary dark">
-          <h1>Meet the Authors</h1>
-          <p>Blue Group: Paul Westmore, Christopher Garcia, Stuart Wilson, Moez Kmo</p>
-          <ul class="nav nav-pills">
-            <li><a href="{{ data.path }}/">  Home  </a></li>
-            <li><a href="{{ data.path }}/weather">  Weather and Crime  </a> </li>
-            <li><a href="{{ data.path }}/food">  Food Scarcity  </a> </li>
-            <li><a href="{{ data.path }}/machine-learning">  Machine Learning  </a> </li>
-            <li class="active"><a href="{{ data.path }}/about">  About Us  </a> </li>
-          </ul>
+        <div class="col-md jumbotron text-center container">
+          <h1 class="display-4">Meet the Authors</h1>
+          <nav class="nav float-left ml-3">
+            <a class="nav-link" href="{{ data.path }}/">Home</a>
+            <a class="nav-link" href="{{ data.path }}/weather">Weather and Crime</a>
+            <a class="nav-link" href="{{ data.path }}/food">Food Scarcity</a>
+            <a class="nav-link" href="{{ data.path }}/machine-learning">Machine Learning</a>
+            <a class="nav-link active" href="{{ data.path }}/about">About Us</a>
+          </nav>
         </div>
-        </div>
-    <!-- Add section for each contributer -->
-    <div class="row" id="mars-news">
-        <div class="col-md-6 text-center">
-          <div class="media">
-            <div class="media-body">
-              <h2 class="media-heading">Stuart Wilson</h2>
-              <p>{{ data.stuart.description }}</p>
-              <div class="col-md">
-                <div class=center>
-                  <img class="img-thumbnail" src="{{ url_for('static', filename='images/stuart_profile.png') }}">
-                </div>
-              </div>            
+      </div>
+      <!-- Add section for each contributer -->
+      <div class="row" style="color: #212529;">
+        <!-- Stuart -->
+        <div class="col-md-5 text-center bg-secondary border border-danger rounded m-5 p-3">
+          <h2 class="media-heading">Stuart Wilson</h2>
+          <div class="p-3 center mx-auto">
+            <a class="btn btn-dark" href="{{ data.stuart.gh }}" role="button">GitHub</a>
+            <a class="btn btn-dark" href="{{ data.stuart.linked }}" role="button">LinkedIn</a>
+            <a class="btn btn-dark" href="{{ data.stuart.tableau }}" role="button">Tableau</a>
+          </div>
+          <div class="m-3 p-2 row mx-auto">
+            <div class="col-auto" style="width: 250px; height: 300px;">
+              <img class="img-thumbnail" src="{{ url_for('static', filename='images/stuart_profile.png') }}">
+            </div>
+            <div class="col-auto" style="width: 250px; height: 300px;">
+              <p class="p-3 bg-white rounded center text-center ">{{ data.stuart.description }}</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 text-center">
-          <div class="media">
-            <div class="media-body">
-              <h2 class="media-heading">Paul Westmore</h2>
-              <p>{{ data.paul.description }}</p>
-              <div class="col-md">
-                <div class=center>
-                  <img class="img-thumbnail" src="{{ url_for('static', filename='images/paul_profile.jpg') }}">
-                </div>
+        <!-- Paul -->
+        <div class="col-md-5 text-center bg-secondary border border-danger rounded m-5 p-3">
+          <h2 class="media-heading">Paul Westmore</h2>
+          <div class="p-3 center mx-auto">
+            <a class="btn btn-dark" href="{{ data.paul.gh }}" role="button">GitHub</a>
+            <a class="btn btn-dark" href="{{ data.paul.linked }}" role="button">LinkedIn</a>
+          </div>
+          <div class="m-3 p-2 row mx-auto">
+            <div class="col-auto" style="width: 250px; height: 300px;">
+              <img class="img-thumbnail" src="{{ url_for('static', filename='images/paul_profile.jpg') }}">
             </div>
+            <div class="col-auto" style="width: 250px; height: 300px;">
+              <p class="p-3 bg-white rounded center text-center" style="font-size:0.8rem;">{{ data.paul.description }}</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 text-center">
-          <div class="media">
-            <div class="media-body">
-              <h2 class="media-heading">Moez Kmo</h2>
-              <p>{{ data.moez.description }}</p>
-              <div class="col-md">
-                <div class=center>
-                  <!-- <img src="images/Put picture here and resize to 204/272"> -->
-                </div>
+      </div>
+      <!-- Add section for each contributer -->
+      <div class="row" style="color: #212529;">
+        <!-- Moez -->
+        <div class="col-md-5 text-center bg-secondary border border-danger rounded m-5 p-3">
+          <h2 class="media-heading">Moez Kmo</h2>
+          <div class="p-3 center mx-auto">
+            <a class="btn btn-dark" href="{{ data.moez.gh }}" role="button">GitHub</a>
+            <a class="btn btn-dark" href="{{ data.moez.linked }}" role="button">LinkedIn</a>
+            <a class="btn btn-dark" href="{{ data.moez.tableau }}" role="button">Tableau</a>
+          </div>
+          <div class="m-3 p-2 row mx-auto">
+            <div class="col-auto" style="width: 250px; height: 300px;">
+              <img class="img-thumbnail" src="{{ url_for('static', filename='images/stuart_profile.png') }}">
             </div>
+            <div class="col-auto" style="width: 250px; height: 300px;">
+              <p class="p-3 bg-white rounded center text-center ">{{ data.moez.description }}</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 text-center">
-          <div class="media">
-            <div class="media-body">
-              <h2 class="media-heading">Christopher Garcia</h2>
-              <p>{{ data.chris.description }}</p>
-              <div class="col-md">
-                <div class=center>
-                  <img class="img-thumbnail" src="{{ url_for('static', filename='images/chris_profile.jpg') }}">
-                </div>
+        <!-- Chris -->
+        <div class="col-md-5 text-center bg-secondary border border-danger rounded m-5 p-3">
+            <h2 class="media-heading">Christopher Garcia</h2>
+            <div class="p-3 center mx-auto">
+              <a class="btn btn-dark" href="{{ data.chris.gh }}" role="button">GitHub</a>
+              <a class="btn btn-dark" href="{{ data.chris.linked }}" role="button">LinkedIn</a>
+              <a class="btn btn-dark" href="{{ data.chris.tableau }}" role="button">Tableau</a>
+            </div>
+            <div class="m-3 p-2 row mx-auto">
+              <div class="col-auto" style="width: 250px; height: 300px;">
+                <img class="img-thumbnail" src="{{ url_for('static', filename='images/chris_profile.jpg') }}">
+              </div>
+              <div class="col-auto" style="width: 250px; height: 300px;">
+                <p class="p-3 bg-white rounded center text-center ">{{ data.chris.description }}</p>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>

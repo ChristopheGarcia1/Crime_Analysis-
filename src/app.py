@@ -24,7 +24,7 @@ def about():
    data = {
       'path': local_path,
       'paul': {
-         'description': "Paul Westmore is a Senior Software Engineer at Mobile Tech RX (Repairify, Inc). He has been part of Mobile Tech RX's team since its earliest days and has been part of it growing from a small startup to it accepting a Series A funding round from Silverton Partners in 2019, and then its eventual acquisition by Repairify, Inc in 2021.",
+         'description': "Paul Westmore is a Senior Software Engineer at Mobile Tech RX (Repairify, Inc).Paul is currently enrolled in the Data Analysis and Visualization Boot Camp through UT's McCombs School of Business (partnered with Trilogy Education Services).",
          'gh': "https://github.com/pswestmore72",
          'linked': "www.linkedin.com/in/paul-westmore-a11040a9",
       },
@@ -37,7 +37,7 @@ def about():
          'description': "Stuart Wilson Description Coming Soon",
          'gh': "https://github.com/PSWil",
          'linked': "https://www.linkedin.com/in/paul-wilson-9a6234214/",
-         'Tableau': "https://public.tableau.com/app/profile/stuart.wilson2140",
+         'tableau': "https://public.tableau.com/app/profile/stuart.wilson2140",
       },
       'moez': {
          'description': "",
