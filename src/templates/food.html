@@ -5,23 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
   <body>
-    <div class="container bg-primary dark">
+    <div class= "contatiner bg-primary dark">
       <div class="row">
-        <!-- Add Jumbotron to Header -->
-        <div class="jumbotron col-md text-center container bg-primary dark">
-          <h1>Crime in Greater Austin Area</h1>
-          <p>Blue Group: Paul Westmore, Christopher Garcia, Stuart Wilson, Moez Kmo</p>
-          <ul class="nav nav-pills">
-            <li><a href="{{ data.path }}/">  Home  </a></li>
-            <li><a href="{{ data.path }}/weather">  Weather and Crime  </a> </li>
-            <li class="active"><a href="{{ data.path }}/food">  Food Scarcity  </a> </li>
-            <li><a href="{{ data.path }}/machine-learning">  Machine Learning  </a> </li>
-            <li><a href="{{ data.path }}/about">  About Us  </a> </li>
-          </ul>
+        <div class=" col-md jumbotron text-center container">
+          <h1 class="display-4">Crime and Fresh Food Availability</h1>
+          <nav class="nav float-left ml-3">
+            <a class="nav-link" href="{{ data.path }}/">Home</a>
+            <a class="nav-link" href="{{ data.path }}/weather">Weather and Crime</a>
+            <a class="nav-link active" href="{{ data.path }}/food">Food Scarcity</a>
+            <a class="nav-link" href="{{ data.path }}/machine-learning">Machine Learning</a>
+            <a class="nav-link" href="{{ data.path }}/about">About Us</a>
+          </nav>
         </div>
       </div>
       <!-- Tableau Visual 1 Start -->
