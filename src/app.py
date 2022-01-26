@@ -26,7 +26,7 @@ def about():
       'paul': {
          'description': "Paul Westmore is a Senior Software Engineer at Mobile Tech RX (Repairify, Inc).Paul is currently enrolled in the Data Analysis and Visualization Boot Camp through UT's McCombs School of Business (partnered with Trilogy Education Services).",
          'gh': "https://github.com/pswestmore72",
-         'linked': "www.linkedin.com/in/paul-westmore-a11040a9",
+         'linked': "https://www.linkedin.com/in/paul-westmore-a11040a9",
       },
       'chris': {
          'description': "",
@@ -36,7 +36,7 @@ def about():
       'stuart': {
          'description': "Stuart Wilson Description Coming Soon",
          'gh': "https://github.com/PSWil",
-         'linked': "https://www.linkedin.com/in/paul-wilson-9a6234214/",
+         'linked': "https://www.linkedin.com/in/stuart-wilson-9a6234214/",
          'tableau': "https://public.tableau.com/app/profile/stuart.wilson2140",
       },
       'moez': {
