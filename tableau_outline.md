@@ -14,8 +14,7 @@
 
 
     - Family Violence - []
-    https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
-
+    https://public.tableau.com/app/profile/moez.khan8652/viz/ofFamilyViolenceOffendersinZipCodeswithFoodDesertsin2021/Sheet1?publish=yes
     
     - Violent crime Visualizations by Zip https://public.tableau.com/app/profile/moez.khan8652/viz/TotalCountCrimesCommitedinAustinbyZipCode-ColorCodedby25orMoreFoodInsecurityin2021/Sheet1?publish=yes
 
@@ -30,9 +29,9 @@
             - Etc...
 
 
-        - Type Location -
+        - Type of Crime in Food Desert Location -
 
-        https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
+       https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
 
   
 

@@ -1,7 +1,9 @@
 # Crime_Analysis
 ## Overview 
 
+
 Crime Analysis dileniates a pattern between 2021 Crime Data in Austin, TX zip codes and several different segments within each zip code such as; median household income, food scarcity, and daily weather events. The data pipeline uses Python libraries for  ETL into the visualization deployment. Tableau and Unsupervised Machine Learning is implemented to deploy visualizations of trends, if any, between crime and other data points. 
+
 
 ## Data Sources 
 

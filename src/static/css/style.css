@@ -1,0 +1,23 @@
+body {
+          background-color: #3b3737;
+          /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+          font-size: calc();
+          background-position: center;
+          }
+
+
+.jumbotron {
+
+          background-image: url("../images/police_lights.jpg") ;
+          background-size: 100% 100%;
+          text-align: center;
+          color:burlywood;
+          /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}      
+
+center { 
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+}
