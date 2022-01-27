@@ -1,7 +1,9 @@
 # Crime_Analysis
 ## Overview 
 
-Crime Analysis dileniates a patterns between 2021 Crime Data in Austin, TX zip codes and several different segments within each zip code such as; median household income, food scarcity, and daily weather events. The data pipeline uses Python libraries for  ETL into the visualization deployment. Tableau and Unsupervised Machine Learning is implemented to deploy visualizations of trends, if any, between crime and other data points. 
+
+Crime Analysis dileniates a pattern between 2021 Crime Data in Austin, TX zip codes and several different segments within each zip code such as; median household income, food scarcity, and daily weather events. The data pipeline uses Python libraries for  ETL into the visualization deployment. Tableau and Unsupervised Machine Learning is implemented to deploy visualizations of trends, if any, between crime and other data points. 
+
 
 ## Data Sources 
 
@@ -15,18 +17,23 @@ Crime Analysis dileniates a patterns between 2021 Crime Data in Austin, TX zip c
 
 - Crime Type by Location Visualization - All crime counts are gathered from the Austin Police Departments database, and the population of criminals in each zip code that suffers from food insecurity is color coded. Food insecurity in this analysis is defined as 1 in 4 of the specific criminal. 
 
-        https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
+    https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
 
-- Heatmap of Austin Food Scarcity based on the density of Family Violence Offenders and all Violent Offenders in the criminal population. There is a clear trend in zip codes with violent offenders that shows more violent offenders in zip codes that suffer food scaricity. 
+- Heatmap(s) of Austin Food Scarcity based on the density of Family Violence Offenders and all Violent Offenders in the criminal population. There is a clear trend in zip codes with violent offenders that results in more violent offenders in zip codes that suffer food scaricity. 
 
-    - Family Violence
+    A. Family Violence
     https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
 
     
-    - Violent crime Visualizations by Zip 
+    B. Violent Crime 
     https://public.tableau.com/app/profile/moez.khan8652/viz/TotalCountCrimesCommitedinAustinbyZipCode-ColorCodedby25orMoreFoodInsecurityin2021/Sheet1?publish=yes
 
+- Weather and Crime Types displays the crime counts in Austin zip codes based on the weather. It is evident that that most crimes are commited in Clear weather, second most in Cloudy weather, and third most in Rainy weather. 
 
+    https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherandCrimeTypesDashboard/WeatherandCrimeTypesDashboard
+
+    https://public.tableau.com/app/profile/stuart.wilson2140/viz/CrimeTypeWeatherConditionFinal/CrimeTypeWeatherCondition
+    
 
 ### Machine Learning Dashboard Visualize Clustering
         
