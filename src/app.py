@@ -29,9 +29,9 @@ def about():
          'linked': "https://www.linkedin.com/in/paul-westmore-a11040a9",
       },
       'chris': {
-         'description': "",
-         'gh': "",
-         'linked': "",
+         'description': "Christopher Garcia is an aspiring data analyst and graduated with an undergraduate degree in mathematics from the University of Houston. Chris is also currently in the Data Analysis and Visualization Boot camp at University of Texas-Austin",
+         'gh': "https://github.com/ChristopheGarcia1",
+         'linked': "https://www.linkedin.com/in/christopher-garcia-979670213/",
       },
       'stuart': {
          'description': "Stuart Wilson Description Coming Soon",
