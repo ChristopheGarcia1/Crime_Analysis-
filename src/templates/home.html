@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
   <body>
-    <div class= "contatiner bg-primary dark">
+    <div class= "contatiner">
       <div class="row">
         <div class=" col-md jumbotron text-center container">
-          <h1 class="display-4">Crime in Greater Austin Area</h1>
-          <nav class="nav float-left ml-3">
+          <h1 class="display-4" style="font-weight: bold;">Crime in Greater Austin Area</h1>
+          <nav class="nav  float-left  ml-3">
             <a class="nav-link active" href="{{ data.path }}/">Home</a>
             <a class="nav-link" href="{{ data.path }}/weather">Weather and Crime</a>
             <a class="nav-link" href="{{ data.path }}/food">Food Scarcity</a>
@@ -22,44 +22,65 @@
           </nav>
         </div>
       </div>
-      <div class="row border rounded m-5">
-        <div class="col-md-8 center mx-auto m-5">
-          <!-- Tableau Visual 1 Start -->
-          <div class='tableauPlaceholder' id='viz1643164048833' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AustinCrimeOverview&#47;AustinCrimeOverview' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1643164048833');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-          <!-- Tableau Visual 1 End -->
-        </div>
-      </div>
-      <div class="row border rounded m-5">
+      <div class="row border rounded m-5 bg-primary dark">
+        <!-- crime in austin beg-->
         <div class="col-md-12 centered">
-          <!-- Time by hours for crime -->
           <h1>
             <u>
-              <center >Crime in Austin</center>
+              <b><center >Crime in Austin</center></b>
             </u>
           </h1>
           <center><p>Louise is starting a fundraiser to fund their theater project, "Fever", and they have a budget of around $10,000 dollars for the production. Louise has asked for our help with help her find underlying trends with a variety of kickstarters that have succeeded, failed, or have been cancelled in order for her campaign to be successful. Purpose To find underlying trends among the kickstarters by utilizing Excel's graphical and analytical functions to analyze outcomes and trends based on a variaty of factors such as launch date, the kickstarter's goals and pledges, subcatagories and parent catagories, and location. Goal is to fine the most optimal way for Louise's kickstarter to successful.</p><center>
+        </div>
+        <div class="col-md-6 center mx-auto m-5">
+          <!-- crime count by zip codes visualization -->
+          <embed type="text/html" src="{{ url_for('static', filename='html/zip_crime_count.html')}}" width="900" height="450">
+          <!-- crime count by zip codes visualization -->
+        </div>
+        <!-- crime in austin end-->
+      </div>
+      <div class="row border rounded m-5 bg-primary dark">
+                <!-- tableau block beg -->
+        <div class="col-md-10 center mx-auto m-5">
+          <div>
+            <u><b><center><h1 style="font-weight: bold;">Interactable map of crimes in Greater Austin</h1></center></b></u>>
+            <p> Below is an interactable map containing approximatly <b>300</b> types of crime both violent and nonviolent. interact with the map below to see which areas of Austin are hit the most! </p>
+          </div>
+          <!-- Tableau Visual 1 Start -->
+          <div class='tableauPlaceholder' id='viz1643083445418' style='position: relative; '><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AggAssaultTempatOccuranceStreets&#47;AggAssaultTempatOccuranceStreets' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1643083445418');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.50)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
           <!-- Tableau Visual 1 End -->
         </div>
+        <!-- tableau block end -->
       </div>
-      <div class="row border rounded m-5">
-        <div class="col-md-6 center mx-auto m-5">
-          <!-- Time by hours for crime -->
+      <div class="row border rounded m-5 bg-primary dark">
+        <div class="col-md-4 center mx-auto m-5">
           <h3>
             <u>
               <b class= 'crimehead center'>Crime by time</b>
             </u>
           </h3>
           <p>Louise is starting a fundraiser to fund their theater project, "Fever", and they have a budget of around $10,000 dollars for the production. Louise has asked for our help with help her find underlying trends with a variety of kickstarters that have succeeded, failed, or have been cancelled in order for her campaign to be successful. Purpose To find underlying trends among the kickstarters by utilizing Excel's graphical and analytical functions to analyze outcomes and trends based on a variaty of factors such as launch date, the kickstarter's goals and pledges, subcatagories and parent catagories, and location. Goal is to fine the most optimal way for Louise's kickstarter to successful.</p>
-          <!-- Tableau Visual 1 End -->
         </div>
-        <div class="col-md-6 center mx-auto m-5">
+        <div class="col-md-8 center mx-auto m-5">
           <!-- Time by hours for crime -->
-          <embed type="text/html" src="../static/html/time_frames.html" width="450" height="450">width="550" height="700">
-          <!-- Tableau Visual 1 End -->
+          <center><embed type="text/html" src="{{ url_for('static', filename='html/time_frames.html')}}" width="450" height="450"><center>
+          <!-- Time by hours for crime -->
         </div>
-      </div>
-      
-      
+        <div class="col-md-4 center mx-auto m-5">
+          <h3>
+            <u>
+              <b class= 'crimehead center'>Crime by Month</b>
+            </u>
+          </h3>
+          <p>Louise is starting a fundraiser to fund their theater project, "Fever", and they have a budget of around $10,000 dollars for the production. Louise has asked for our help with help her find underlying trends with a variety of kickstarters that have succeeded, failed, or have been cancelled in order for her campaign to be successful. Purpose To find underlying trends among the kickstarters by utilizing Excel's graphical and analytical functions to analyze outcomes and trends based on a variaty of factors such as launch date, the kickstarter's goals and pledges, subcatagories and parent catagories, and location. Goal is to fine the most optimal way for Louise's kickstarter to successful.</p>
+        </div>
+        <div class="col-md-8 center mx-auto m-5">
+          <!-- Time by months for crime -->
+          <center><embed type="text/html" src="{{ url_for('static', filename='html/Total_crime_by_zip.html')}}" width="700" height="450"><center>
+          <!-- Time by months for crime -->
+        </div>
+      </div>      
     </div>
   </body>
   
