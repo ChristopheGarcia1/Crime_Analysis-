@@ -3,21 +3,28 @@
 
 Crime Analysis dileniates a pattern between 2021 Crime Data in Austin, TX zip codes and several different segments within each zip code such as; median household income, food scarcity, and daily weather events. The data pipeline uses Python libraries for  ETL into the visualization deployment. Tableau and Unsupervised Machine Learning is implemented to deploy visualizations of trends, if any, between crime and other data points. 
 
-## Data Sources 
+## Data Analysis and Visualization Deployment
 
-1. 
-2. 
-3. 
+https://crime-ut-data-class.herokuapp.com
+
 
 ## Results 
 
+### Machine Learning Clustering     
+
+![Unsupervised Machine Leanring]()
+
+![Unsupervised Machine Learning]()
+
+![Unsupervised Machine Leanring]()
+
 ### Informative Tableau Visualizations
 
-- Crime Type by Location Visualization - All crime counts are gathered from the Austin Police Departments database, and the population of criminals in each zip code that suffers from food insecurity is color coded. Food insecurity in this analysis is defined as 1 in 4 of the specific criminal. 
+I. THe following vizulization counts criminals in each zip code by crime type gathered from the Austin Police Departments database, and shows median household income in each zip code, as well as which criminal populations suffer from food insecurity. THe Food insecurity status is color coded in this analysis and is defined as 1 in 4 of the specific criminal. 
 
-    https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
+    A. https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
 
-- Heatmap(s) of Austin Food Scarcity based on the density of Family Violence Offenders and all Violent Offenders in the criminal population. There is a clear trend in zip codes with violent offenders that results in more violent offenders in zip codes that suffer food scaricity. 
+II. The following vizualizations maps out the number of Family Violence and Violent Offenders in the criminal population as well as whether they live in food insecure zip codes or not. The results show more Violent and Family Violent Offenders in zip codes that suffer food scaricity.
 
     A. Family Violence
    https://public.tableau.com/app/profile/moez.khan8652/viz/ofFamilyViolenceOffendersinZipCodeswithFoodDesertsin2021/Sheet1?publish=yes
@@ -26,26 +33,33 @@ Crime Analysis dileniates a pattern between 2021 Crime Data in Austin, TX zip co
     B. Violent Crime 
     https://public.tableau.com/app/profile/moez.khan8652/viz/2021ViolentOffendersinFoodDeserts/Sheet1?publish=yes
 
-- Weather and Crime Types displays the crime counts in Austin zip codes based on the weather. It is evident that that most crimes are commited in Clear weather, second most in Cloudy weather, and third most in Rainy weather. 
+III. Weather and Crime Types displays the crime counts in Austin zip codes based on the weather. It is evident that that most crimes are commited in Clear weather, second most in Cloudy weather, and third most in Rainy weather. 
 
-    https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherandCrimeTypesDashboard/WeatherandCrimeTypesDashboard
+    A. https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherandCrimeTypesDashboard/WeatherandCrimeTypesDashboard
 
-    https://public.tableau.com/app/profile/stuart.wilson2140/viz/CrimeTypeWeatherConditionFinal/CrimeTypeWeatherCondition
+    B. https://public.tableau.com/app/profile/stuart.wilson2140/viz/CrimeTypeWeatherConditionFinal/CrimeTypeWeatherCondition
+
+### Visualizations of Crime Type and Time of Day
+
+![Cimes By Time of Day]()
 
 
-### Machine Learning Dashboard Visualize Clustering
-        
+![Crime Count By Time of Day]()
 
-- Weather Visualizations (If we end up getting into weather data)
-
-        - Visualizations of crime data by weather condition - []
 
 ## Conclusion 
 
+Althought there are no dependent variables in the relationships between the data points in this analysis,there are casual relationships that can be delineated and further visualized. 
 
 
 
 
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
 # Topic
 
 Analyze Crime Data for Austin, TX against other factors such as; access to food, general wealth/ home costs, daily weather events... and offer visualizations of any trends between crime and these other factors.
