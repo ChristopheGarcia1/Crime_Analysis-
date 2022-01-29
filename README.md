@@ -12,11 +12,11 @@ https://crime-ut-data-class.herokuapp.com
 
 ### Machine Learning Clustering     
 
-![Unsupervised Machine Leanring]()
+![Unsupervised Machine Leanring](https://github.com/ChristopheGarcia1/Crime_Analysis-/blob/65b9c8544752c5540e5f888390dd32f4b13f3279/CA_README_IMG/Screenshot%202022-01-29%20at%2011.01.38%20AM.png)
 
-![Unsupervised Machine Learning]()
+![Unsupervised Machine Learning](https://github.com/ChristopheGarcia1/Crime_Analysis-/blob/65b9c8544752c5540e5f888390dd32f4b13f3279/CA_README_IMG/Screenshot%202022-01-29%20at%2010.39.08%20AM.png)
 
-![Unsupervised Machine Leanring]()
+![Unsupervised Machine Leanring](https://github.com/ChristopheGarcia1/Crime_Analysis-/blob/65b9c8544752c5540e5f888390dd32f4b13f3279/CA_README_IMG/Screenshot%202022-01-29%20at%2011.01.56%20AM.png)
 
 ### Informative Tableau Visualizations
 
@@ -41,10 +41,10 @@ III. Weather and Crime Types displays the crime counts in Austin zip codes based
 
 ### Visualizations of Crime Type and Time of Day
 
-![Cimes By Time of Day]()
+![Cimes By Time of Day](https://github.com/ChristopheGarcia1/Crime_Analysis-/blob/65b9c8544752c5540e5f888390dd32f4b13f3279/CA_README_IMG/Screenshot%20(379).png)
 
 
-![Crime Count By Time of Day]()
+![Crime Count By Time of Day](https://github.com/ChristopheGarcia1/Crime_Analysis-/blob/65b9c8544752c5540e5f888390dd32f4b13f3279/CA_README_IMG/Screenshot%20(380).png)
 
 
 ## Conclusion 
