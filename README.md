@@ -51,6 +51,8 @@ III. Weather and Crime Types displays the crime counts in Austin zip codes based
     
 ### Visualizations of Crime Type and Time of Day
 
+According to the following two graphs, most crimes are committed at 12 PM and the second most at 12 AM. The following plotly graphs were tooled with the following two Python scripts: "px.line_polar" and "px.line". 
+
 ![Cimes By Time of Day](https://github.com/ChristopheGarcia1/Crime_Analysis-/blob/65b9c8544752c5540e5f888390dd32f4b13f3279/CA_README_IMG/Screenshot%20(379).png)
 
 
@@ -59,7 +61,7 @@ III. Weather and Crime Types displays the crime counts in Austin zip codes based
 
 ## Conclusion 
 
-(First Draft in progress) Althought there are no dependent variables in the relationships between the data points in this analysis,there are casual relationships that can be delineated and further visualized. 
+The features in our data anlysis of crime in Austin, TX includes a closer look at violent crime types, including family violence and theft, while comparing data points of food scarcity by zip code as well as weather at the given time of day an incident occurs. Although there are no dependent variables in the relationships between the data points in this analysis,there are casual relationships that can be delineated and further visualized.  Overall, the patterns that were further drawn from visualizations show some strong correlations and provide useful information to the public at large. The visualizations are able to tell us how and if weather, household income, and food insecurity overlap in a cluster graph using unsupervised machine learning. Informative Tableau visualizations provided patterns between crime types and food insecurity, along with weather types and total major crime counts. Lastly, the Plotly library visualization provides a look into crime counts by time of day and helps understand what time of day the most crime took place bwtween 2020 and 2021. Overall, there may not be a direct correleation between all crime types in any of the other variables researched, yet within certain crime types there are significant patterns detected. 
 
 
 -------------------------------------------------------------------------------------------------------------
