@@ -22,7 +22,10 @@ https://crime-ut-data-class.herokuapp.com
 
 I. The following vizulization counts criminals in each zip code by crime type gathered from the Austin Police Departments database, and shows median household income in each zip code, as well as which criminal populations suffer from food insecurity. THe Food insecurity status is color coded in this analysis and is defined as 1 in 4 of the specific criminal. 
 
-    A. https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
+    A. 
+
+    https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
+
 
 II. The following vizualizations maps out the number of Family Violence and Violent Offenders in the criminal population as well as whether they live in food insecure zip codes or not. The results show more Violent and Family Violent Offenders in zip codes that suffer food scaricity.
 
@@ -35,16 +38,17 @@ II. The following vizualizations maps out the number of Family Violence and Viol
    
     https://public.tableau.com/app/profile/moez.khan8652/viz/2021ViolentOffendersinFoodDeserts/Sheet1?publish=yes
 
+
 III. Weather and Crime Types displays the crime counts in Austin zip codes based on the weather. It is evident that that most crimes are commited in Clear weather, second most in Cloudy weather, and third most in Rainy weather.  These two graphs make up a dashboard overview of the major weather conditions and crimes that take place in Austin, TX.
 
     A. The Weather Type and Temperature Overview shows the different weather conditions that are recorded by the City of Austin when an incident is recorded. This visualization shows an overview of all the incidents recorded and their corresponding temperature and the specific weather condition when they took place.
 
     https://public.tableau.com/app/profile/stuart.wilson2140/viz/WeatherandCrimeTypesDashboard/WeatherandCrimeTypesDashboard
-
+    
     B. Below the Weather Type and Temperature Overview is a visualization that shows a breakdown of the major incidents that took place during specific weather conditions.
 
     https://public.tableau.com/app/profile/stuart.wilson2140/viz/CrimeTypeWeatherConditionFinal/CrimeTypeWeatherCondition
-
+    
 ### Visualizations of Crime Type and Time of Day
 
 ![Cimes By Time of Day](https://github.com/ChristopheGarcia1/Crime_Analysis-/blob/65b9c8544752c5540e5f888390dd32f4b13f3279/CA_README_IMG/Screenshot%20(379).png)
