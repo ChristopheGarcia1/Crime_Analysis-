@@ -51,6 +51,8 @@ III. Weather and Crime Types displays the crime counts in Austin zip codes based
     
 ### Visualizations of Crime Type and Time of Day
 
+According to the following two graphs, most crimes are committed at 12 PM and the second most at 12 AM. The following plotly graphs were tooled with the following two Python scripts: "px.line_polar" and "px.line". 
+
 ![Cimes By Time of Day](https://github.com/ChristopheGarcia1/Crime_Analysis-/blob/65b9c8544752c5540e5f888390dd32f4b13f3279/CA_README_IMG/Screenshot%20(379).png)
 
 
