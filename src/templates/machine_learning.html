@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
   <body>
-    <div class= "contatiner bg-primary dark">
+    <div class= "contatiner">
       <div class="row">
-        <div class=" col-md jumbotron text-center container">
+        <div class=" col-md jumbotron text-center">
           <h1 class="display-4">Machine Learning Model</h1>
           <nav class="nav float-left ml-3">
             <a class="nav-link" href="{{ data.path }}/">Home</a>
@@ -24,19 +24,19 @@
       </div>
       
       <div class="row">
-        <div class="col-md-11 m-2 p-2 mx-auto rounded bg-light border border-secondary row justify-content-between">
+        <div class="col-md-11 m-2 p-2 mx-auto rounded bg-primary dark border border-secondary row justify-content-between">
           <div class="col-5">
             <h3> Clustering of Theft Related Crimes </h3>
             <embed type="text/html" src="{{ url_for('static', filename='html/file_theft.html') }}" width="550" height="700">
           </div>
           <div class="col-6 m-4" style="font-size: 1.1em;">
-            <p class="p-1 text-justify float-left border rounded">
+            <p class="bg-light p-1 text-justify float-left border rounded">
               <span style="font-size: 4em;">T</span>his project used a clustering Machine Learning algorithm to group crime across multiple different parameters. 
               <strong> Clustering is a type of unsupervised learning that groups data points together. This group of data points is called a cluster. </strong>
               Cluster modeling is a form of unsupervised machine learning. The model that is created finds structure from the data input into the model, as opposed to
                being given an outright structure. This type of machine learning is excellent at visualizing and discerning patterns that may be hidden within the dataset. 
             </p>
-            <p class="p-1 text-justify float-left border rounded">
+            <p class="bg-light p-1 text-justify float-left border rounded">
               The models that were built to represent these datasets were specifically built on a K-means algorithm, and then a Principal Component Analysis (PCA) was was applied 
               to the model to reduce some of the complex dementionality. The "K-means" algorithm will cluster the dataset into K clusters based on their proximity within the dataset 
               to a centroid point for that cluster. In order to determine the optimal number of clusters that the K-means algorithm was to produce for each dataset's model, we 
@@ -44,13 +44,13 @@
             </p>
             <figure class="figure">
               <img src="{{ url_for('static', filename='images/bokeh_plot.png') }}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-              <figcaption class="figure-caption">Inertia test, elbow curve, for Theft related crime dataset.</figcaption>
+              <figcaption class="figure-caption text-white">Inertia test, elbow curve, for Theft related crime dataset.</figcaption>
             </figure>
           </div>
         </div>
-        <div class="col-md-11 m-2 p-2 mx-auto rounded bg-light border border-secondary row justify-content-between">
+        <div class="col-md-11 m-2 p-2 mx-auto rounded bg-primary dark border border-secondary row justify-content-between">
           <div class="col-6 m-4" style="font-size: 1.1em;">
-            <p class="p-1 text-justify float-left border rounded">
+            <p class="bg-light p-1 text-justify float-left border rounded">
               Because this dataset looked at many datapoints, and the dataset didn't offer a known structure to compare the data, we then 
               applied the PCA statistical technique. This is a method of reducing the number of features to compare by the clustering model. This 
               allows us to visualize the clustered models across the entire dataset, with only three dimensions, while still keeping as much of the 
@@ -58,7 +58,7 @@
             </p>
             <figure class="figure">
               <img src="{{ url_for('static', filename='images/pca_code.png') }}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-              <figcaption class="figure-caption">Dimentionality reduction using the PCA technique.</figcaption>
+              <figcaption class="figure-caption text-white">Dimentionality reduction using the PCA technique.</figcaption>
             </figure>
           </div>
           <div class="col-5">
@@ -66,20 +66,20 @@
             <embed type="text/html" src="{{ url_for('static', filename='html/file_zip_code.html') }}" width="550" height="700">
           </div>
         </div>
-        <div class="col-md-11 m-2 p-2 mx-auto rounded bg-light border border-secondary row justify-content-between">
+        <div class="col-md-11 m-2 p-2 mx-auto rounded bg-primary dark border border-secondary row justify-content-between">
           <div class="col-5">
             <h3> Clustering of Violent Crimes </h3>
             <embed type="text/html" src="{{ url_for('static', filename='html/file_violent.html') }}" width="550" height="700">
           </div>
           <div class="col-6 m-4" style="font-size: 1.1em;">
-            <p class="p-1 text-justify float-left border rounded">
+            <p class="bg-light p-1 text-justify float-left border rounded">
               We used the results of these clusters to generate questions and to explore our datasets in new ways. We examined the outcome of these models, and began 
               to ask questions like; "maybe there is a connection between time fo day and the type of crime of crime that was commited", or "there may be a trend between 
               the location the crime was committed and the weather"... <br>
               Then using these visuals and our exploration time we generated a story of the crime that was comitted within the greater Austin metroplex  (2020-2021), these 
               can be seen on the other pages within this application.
             </p>
-            <p class="p-1 text-justify float-left border rounded">
+            <p class="bg-light p-1 text-justify float-left border rounded">
               <strong>Parameters examnied: </strong> <br>
               Crime commited -- 'crime_type_x' <br>
               Time of Day -- 'time_occ' <br>
