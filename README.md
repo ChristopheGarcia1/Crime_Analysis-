@@ -61,7 +61,7 @@ According to the following two graphs, most crimes are committed at 12 PM and th
 
 ## Conclusion 
 
-(First Draft in progress) Althought there are no dependent variables in the relationships between the data points in this analysis,there are casual relationships that can be delineated and further visualized. 
+There features in our data anlysis of crime in Austin, TX includes a closer look at violent crime types, including family violence and theft, while comparing data points of food scarcity by zip code as well as weather at the given time of day an incident occurs. Although there are no dependent variables in the relationships between the data points in this analysis,there are casual relationships that can be delineated and further visualized.
 
 
 -------------------------------------------------------------------------------------------------------------
