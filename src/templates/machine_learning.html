@@ -12,7 +12,7 @@
     <div class= "contatiner">
       <div class="row">
         <div class=" col-md jumbotron text-center">
-          <h1 class="display-4">Machine Learning Model</h1>
+          <h1 class="display-4" style="font-weight: bold;">Crime in Greater Austin Area</h1>
           <nav class="nav float-left ml-3">
             <a class="nav-link" href="{{ data.path }}/">Home</a>
             <a class="nav-link" href="{{ data.path }}/weather">Weather and Crime</a>
@@ -25,6 +25,13 @@
       
       <div class="row">
         <div class="col-md-11 m-2 p-2 mx-auto rounded bg-primary dark border border-secondary row justify-content-between">
+          <div class="col-md-11">
+            <h1>
+              <u>
+                <b><center >Unsupervised Machine Learning</center></b>
+              </u>
+            </h1>
+          </div>
           <div class="col-5">
             <h3> Clustering of Theft Related Crimes </h3>
             <embed type="text/html" src="{{ url_for('static', filename='html/file_theft.html') }}" width="550" height="700">
@@ -80,7 +87,7 @@
               can be seen on the other pages within this application.
             </p>
             <p class="bg-light p-1 text-justify float-left border rounded">
-              <strong>Parameters examnied: </strong> <br>
+              <strong>Parameters examined: </strong> <br>
               Crime commited -- 'crime_type_x' <br>
               Time of Day -- 'time_occ' <br>
               Latitude -- 'latitude' <br>
