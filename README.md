@@ -27,7 +27,7 @@ I. The following vizulization counts criminals in each zip code by crime type ga
     https://public.tableau.com/app/profile/moez.khan8652/viz/AustinZipCodesthatare25orMoreFoodInsecurebasedonTypesofCrimeAvgHouseholdIncomein2021/Sheet1?publish=yes
 
 
-II. The following vizualizations maps out the number of Family Violence and Violent Offenders in the criminal population as well as whether they live in food insecure zip codes or not. The results show more Violent and Family Violent Offenders in zip codes that suffer food scaricity.
+II. The following vizualizations maps out the number of Family Violence and Violent Incidents in the criminal population as well as whether they live in food insecure zip codes or not. The results show more Violent and Family Violent Incidents in zip codes that suffer food scaricity.
 
     A. Family Violence
    
