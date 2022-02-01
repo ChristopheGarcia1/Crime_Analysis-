@@ -34,7 +34,7 @@ def about():
          'linked': "https://www.linkedin.com/in/christopher-garcia-979670213/",
       },
       'stuart': {
-         'description': "Stuart Wilson graduated from Texas State University with Degrees in Criminal Justice and Business Administration and is an aspiring Data Analyst who is currently enrolled in the Data Analytics and Visualization Bootcamp at the University of Texas.",
+         'description': "Stuart Wilson graduated from Texas State University with Degrees in Criminal Justice and Business Administration. Stuart is an aspiring Data Analyst who is currently enrolled in the Data Analytics and Visualization Bootcamp through UT's McCombs School of Business.",
          'gh': "https://github.com/PSWil",
          'linked': "https://www.linkedin.com/in/paul-wilson-9a6234214/",
          'tableau': "https://public.tableau.com/app/profile/stuart.wilson2140",
