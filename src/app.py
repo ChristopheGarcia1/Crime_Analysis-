@@ -40,9 +40,10 @@ def about():
          'tableau': "https://public.tableau.com/app/profile/stuart.wilson2140",
       },
       'moez': {
-         'description': "",
-         'gh': "",
-         'linked': "",
+         'description': "Moez Khanmohamed is a Business Analyst I at a management firm in Austin, Texas. Moez is currently enrolled in the Data Analysis and Visualization Boot Camp through UT's McCombs School of Business (partnered with Trilogy Education Services).",
+         'gh': "https://github.com/MoKmo176 ",
+         'linked': "https://www.linkedin.com/in/moez-i-k-a22a1910a",
+         'tableau': "https://public.tableau.com/app/profile/moez.khan8652"
       },
    }
    return render_template("about.html", data=data)
